@@ -58,8 +58,7 @@ public class LinkedListReversal {
         }
 
         /*
-        if at the end there are numbers smaller than k,
-        those numbers should also be reversed
+         The remaining numbers at the end should also be reversed
         * */
         if (numberOfNodes > 1) {
             ListNode start = beforeNode.next;
